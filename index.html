@@ -7,31 +7,52 @@
         <link rel="stylesheet"
               type="text/css"
               href="css/style.css">
+        <style>
+            body{
+                background-image: url(https://i.pinimg.com/originals/f0/5d/2f/f05d2f07b9450e49828a3903feef2004.jpg);
+                background-size:cover;  
+                background-repeat: no-repeat;
+            }
+        </style>
      </head>
     <body>
         <header>
             <img id="logo"
                  alt="logo"
-                 src="image/Lovepik_com-450045590-mountain%20and%20forest%20vector%20logo.png"
+                 src="image/Vertical Layout_Logo.png"
                  width="100px">
-            <h1>HEATER</h1>
+            <h1>Voyage</h1>
         </header>
         <nav>
-            <h1>NAV</h1>
-            <a class="navlink"href="https://en.wikipedia.org/wiki/Philosophy">Main</a>
-            <a class="navlink"href="https://en.wikipedia.org/wiki/Philosophy">About</a>
-            <a class="navlink"href="https://en.wikipedia.org/wiki/Philosophy">Activity</a>
-            <a class="navlink"href="https://en.wikipedia.org/wiki/Philosophy">Folio</a>
-            <a class="navlink"href="https://en.wikipedia.org/wiki/Philosophy">Contact</a>
+            <div class="navb">
+            <input type="text" placeholder="Search..." style="border: none; padding: 5px; box-shadow: 4px 4px 10px rgba( 95, 45, 35, 50%);">
+            <a class="navlink"href="Section_main.html"
+               target="section_iframe">Main</a>
+            <a class="navlink"href="Section_about.html"
+               target="section_iframe">About</a>
+            <a class="navlink"href="Section_activity.html"
+               target="section_iframe">Activity</a>
+            <a class="navlink"href="Section_contact.html"
+               target="section_iframe">Contact</a>
+            </div>
         </nav>
+        
         <section>
-           <iframe src="Section.html"></iframe> 
+           <iframe name="section_iframe" src="Section_main.html"></iframe> 
         </section>
         <aside>
             <h1>ASIDE</h1>
+            <button class="facebook">
+                <img src="image/facebook-logo-png-transparente-7.png"
+                     alt="facebook"
+                     class="button-icon"
+                     width="50px">
+            </button>
         </aside>
         <footer>
             <h1>FOOTER</h1>
+            <h2>Editors:Loke Wan Qian</h2>
+            <h2>Editors:Chua Xinying</h2>
         </footer>
     </body>
 </html>
